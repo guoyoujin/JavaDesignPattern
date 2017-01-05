@@ -30,8 +30,8 @@ public class MyClass {
         mySubject3.registerObserver(new ObserverSecond());
         mySubject3.registerObserver(new ObserverThree());
         TestBean testBean = new TestBean();
-        testBean.setName("我是测试");
-        testBean.setMsg("测试消息");
+        testBean.setName("老师发来的消息");
+        testBean.setMsg("你们要来上课了啊");
         mySubject3.operation(testBean);
         System.out.println("=======register observer add params end");
 
